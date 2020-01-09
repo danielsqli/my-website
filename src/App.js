@@ -20,7 +20,7 @@ function App() {
         </a>
         <a
           className="App-link"
-          href="resume.pdf"
+          href="/src/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
