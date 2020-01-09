@@ -19,7 +19,7 @@ function App() {
           Github
         </a>
         <a
-          className="App-link"
+          className="App"
           href="/src/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
