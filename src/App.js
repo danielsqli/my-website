@@ -3,7 +3,7 @@ import face from './face.png';
 import resume from './Resume.pdf'
 import githubicon from './github-icon.png'
 import linkedinicon from './linkedin-icon.png'
-import resumeicon from './resume-icon.png'
+import resumeicon from './resume-icon.jpg'
 import './App.css';
 
 function Webpage() {
