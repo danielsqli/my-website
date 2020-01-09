@@ -1,10 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Page, Document } from '@react-pdf/renderer';
 import resume from './Resume.pdf'
 import './App.css';
 
-function App() {
+function Webpage() {
   return (
     <div className="App">
       <header className="App-header">
@@ -39,6 +38,7 @@ function App() {
       </header>
     </div>
   );
+
 }
 
-export default App;
+export default Webpage;
