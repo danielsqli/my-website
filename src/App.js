@@ -23,7 +23,7 @@ function Webpage() {
           rel="noopener noreferrer"
         >
           <img src={githubicon} height="100vh" width="100vh"/>
-          Github
+          <br>Github
         </a>
         <a
         className="App-link"
@@ -32,7 +32,7 @@ function Webpage() {
         rel="noopener noreferrer"
         >
           <img src={resumeicon} height="100vh" width="100vh"/>
-          Resume
+          <br>Resume
         </a>
         <a
           className="App-link"
@@ -41,7 +41,7 @@ function Webpage() {
           rel="noopener noreferrer"
         >
           <img src={linkedinicon} height="100vh" width="100vh"/>
-          LinkedIn
+          <br>LinkedIn
         </a>
       </body>
     </div>
