@@ -19,7 +19,7 @@ function Webpage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {githubicon}
+          <img src={githubicon}/>
         </a>
         <a
         className="App-link"
@@ -35,7 +35,7 @@ function Webpage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {linkedinicon}
+          <img src={linkedinicon}/>
         </a>
       </header>
     </div>
