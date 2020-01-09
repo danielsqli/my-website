@@ -21,9 +21,10 @@ function App() {
           Github
         </a>
         <a
-          <Document
-            file={resume}
-          >
+        className="App-link"
+        href={resume}
+        target="_blank"
+        rel="noopener noreferrer"
         >
           Resume
         </a>
