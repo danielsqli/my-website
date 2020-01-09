@@ -23,7 +23,6 @@ function App() {
           className="App"
           href={resume}
           target="_blank"
-          rel="noopener noreferrer"
         >
           Resume
         </a>
