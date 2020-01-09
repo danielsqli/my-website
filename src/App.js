@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import resume from './Resume.pdf'
 import './App.css';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         </a>
         <a
           className="App"
-          href="/src/resume.pdf"
+          href={resume}
           target="_blank"
           rel="noopener noreferrer"
         >
