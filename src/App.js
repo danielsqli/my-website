@@ -13,6 +13,8 @@ function Webpage() {
         <p>
           Daniel Li (WIP)
         </p>
+      </header>
+      <body className="App-body">
         <a
           className="App-link"
           href="https://github.com/danielsqli"
@@ -37,7 +39,7 @@ function Webpage() {
         >
           <img src={linkedinicon} scale="0.2"/>
         </a>
-      </header>
+      </body>
     </div>
   );
 
