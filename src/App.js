@@ -8,15 +8,31 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Daniel Li
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/danielsqli"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Github
+        </a>
+        <a
+          className="App-link"
+          href="resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Resume
+        </a>
+        <a
+          className="App-link"
+          href="https://www.linkedin.com/in/daniel-li-8ba675161/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
         </a>
       </header>
     </div>
