@@ -1,8 +1,8 @@
 import React from 'react';
 import face from './face.png';
 import resume from './Resume.pdf'
-import github-icon from './github-icon.png'
-import linkedin-icon from './linkedin-icon.png'
+import githubicon from './github-icon.png'
+import linkedinicon from './linkedin-icon.png'
 import './App.css';
 
 function Webpage() {
@@ -19,7 +19,7 @@ function Webpage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {github-icon}
+          {githubicon}
         </a>
         <a
         className="App-link"
@@ -35,7 +35,7 @@ function Webpage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {linkedin-icon}
+          {linkedinicon}
         </a>
       </header>
     </div>
