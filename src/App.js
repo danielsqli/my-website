@@ -1,6 +1,8 @@
 import React from 'react';
 import face from './face.png';
 import resume from './Resume.pdf'
+import github-icon from './github-icon.png'
+import linkedin-icon from './linkedin-icon.png'
 import './App.css';
 
 function Webpage() {
@@ -17,7 +19,7 @@ function Webpage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Github
+          {github-icon}
         </a>
         <a
         className="App-link"
@@ -33,7 +35,7 @@ function Webpage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn
+          {linkedin-icon}
         </a>
       </header>
     </div>
