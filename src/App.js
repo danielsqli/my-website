@@ -3,6 +3,7 @@ import face from './face.png';
 import resume from './Resume.pdf'
 import githubicon from './github-icon.png'
 import linkedinicon from './linkedin-icon.png'
+import resumeicon from './resume-icon.png'
 import './App.css';
 
 function Webpage() {
@@ -22,6 +23,7 @@ function Webpage() {
           rel="noopener noreferrer"
         >
           <img src={githubicon} height="100vh" width="100vh"/>
+          Github
         </a>
         <a
         className="App-link"
@@ -29,6 +31,7 @@ function Webpage() {
         target="_blank"
         rel="noopener noreferrer"
         >
+          <img src={resumeicon} height="100vh" width="100vh"/>
           Resume
         </a>
         <a
@@ -38,6 +41,7 @@ function Webpage() {
           rel="noopener noreferrer"
         >
           <img src={linkedinicon} height="100vh" width="100vh"/>
+          LinkedIn
         </a>
       </body>
     </div>
