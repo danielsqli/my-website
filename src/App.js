@@ -21,7 +21,7 @@ function Webpage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={githubicon} scale="0.2"/>
+          <img src={githubicon} height="100vh" width="100vh"/>
         </a>
         <a
         className="App-link"
@@ -37,7 +37,7 @@ function Webpage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={linkedinicon} scale="0.2"/>
+          <img src={linkedinicon} height="100vh" width="100vh"/>
         </a>
       </body>
     </div>
