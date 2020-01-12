@@ -49,6 +49,7 @@ function Webpage() {
           href={model}
           target="_blank"
           rel="noopener noreferrer"
+          download="download"
         >
           <p>Model</p>
         </a>
