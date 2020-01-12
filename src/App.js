@@ -16,6 +16,7 @@ function Webpage() {
           Daniel Li (WIP)
         </p>
       </header>
+
       <body className="App-body">
         <a
           className="App-link"
@@ -26,15 +27,18 @@ function Webpage() {
           <img src={githubicon} height="100vh" width="100vh"/>
           <p>Github</p>
         </a>
+
         <a
         className="App-link"
         href={resume}
         target="_blank"
         rel="noopener noreferrer"
+        download="download"
         >
           <img src={resumeicon} height="100vh" width="100vh"/>
           <p>Resume</p>
         </a>
+
         <a
           className="App-link"
           href="https://www.linkedin.com/in/daniel-li-8ba675161/"
@@ -44,6 +48,7 @@ function Webpage() {
           <img src={linkedinicon} height="100vh" width="100vh"/>
           <p>LinkedIn</p>
         </a>
+
         <a
           className="App-link"
           href={model}
