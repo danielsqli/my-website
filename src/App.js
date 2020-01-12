@@ -4,6 +4,7 @@ import resume from './Resume.pdf'
 import githubicon from './github-icon.png'
 import linkedinicon from './linkedin-icon.png'
 import resumeicon from './resume-icon.jpg'
+import model from './model/model.json'
 import './App.css';
 
 function Webpage() {
@@ -42,6 +43,14 @@ function Webpage() {
         >
           <img src={linkedinicon} height="100vh" width="100vh"/>
           <p>LinkedIn</p>
+        </a>
+        <a
+          className="App-link"
+          href={model}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Model</p>
         </a>
       </body>
     </div>
