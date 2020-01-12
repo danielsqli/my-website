@@ -4,7 +4,7 @@ import resume from './Resume.pdf'
 import githubicon from './github-icon.png'
 import linkedinicon from './linkedin-icon.png'
 import resumeicon from './resume-icon.jpg'
-import model from './model/model.json'
+import model from './model.json'
 import './App.css';
 
 function Webpage() {
