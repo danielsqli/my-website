@@ -48,16 +48,6 @@ function Webpage() {
           <img src={linkedinicon} height="100vh" width="100vh"/>
           <p>LinkedIn</p>
         </a>
-
-        <a
-          className="App-link"
-          href={model}
-          target="_blank"
-          rel="noopener noreferrer"
-          download="download"
-        >
-          <p>Model</p>
-        </a>
       </body>
     </div>
   );
