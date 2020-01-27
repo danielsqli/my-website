@@ -1,5 +1,5 @@
 import React from 'react';
-import face from './face.png';
+import face from './face.jpg';
 import resume from './Resume.pdf'
 import githubicon from './github-icon.png'
 import linkedinicon from './linkedin-icon.png'
