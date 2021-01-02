@@ -1,7 +1,6 @@
 import Navigation from '../Navigation'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import Image from 'next/Image'
 
 const Projects = () => {
     return (
