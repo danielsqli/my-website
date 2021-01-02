@@ -14,9 +14,8 @@ const Projects = () => {
                     Mobile app that identifies what species of flower your image is. Currently supports
                     Daisy, Dandelion, Rose, Tulip, Sunflower
                     </Card.Text>
-                    <Button variant="primary">
+                    <Button variant="primary" href="https://github.com/tonylizj/FlowerID-App" target="_blank">
                         Github
-                        <a href="https://github.com/tonylizj/FlowerID-App" target="_blank"/>
                     </Button>
                 </Card.Body>
             </Card>
