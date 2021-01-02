@@ -1,11 +1,9 @@
-import Navigation from '../Navigation'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
 const Projects = () => {
     return (
         <div>
-            <Navigation />
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src="flower.png" />
                 <Card.Body>
