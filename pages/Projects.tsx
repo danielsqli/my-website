@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 const Projects = () => {
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
+            <Card style={{ width: '18rem', backgroundColor: "#181a1b" }}>
                 <Card.Img variant="top" src="flower.png" />
                 <Card.Body>
                     <Card.Title>FlowerID</Card.Title>

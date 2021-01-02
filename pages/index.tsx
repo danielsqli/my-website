@@ -1,23 +1,22 @@
 import Navigation from './Navigation'
 import Projects from './Projects'
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
 
 export default function Home() {
   return (
-    <div>
+    <div style={ {} }>
       <Navigation />
-      <Jumbotron>
+      <Jumbotron style={ {backgroundColor: "#384149"} } className="mb-0">
           <h1>Hello</h1>
           <p>
             My Name is Daniel Li, a undergraduate Computer Science student at the Univeristy of Waterloo
           </p>
       </Jumbotron>
-      <Container fluid>
+      <Jumbotron style={ {backgroundColor: "#232627"} }>
         <h1>Projects</h1>
-        <hr className="h-50"/>
+        <hr/>
         <Projects />
-      </Container>
+      </Jumbotron>
     </div>
   );
 }
