@@ -16,7 +16,7 @@ export default function Home() {
             My Name is Daniel Li, software developer and an undergraduate Computer Science student at the Univeristy of Waterloo
           </p>
       </Jumbotron>
-      <Jumbotron style={ {backgroundColor: "#232627"} }>
+      <Jumbotron style={ {backgroundColor: "#232627"} } className="pt-4">
         <h1>Projects</h1>
         <hr/>
         <Projects />
