@@ -12,7 +12,7 @@ const Projects = () => {
                     Mobile app that identifies what species of flower your image is. Currently supports
                     Daisy, Dandelion, Rose, Tulip, Sunflower
                     </Card.Text>
-                    <Button variant="primary" href="https://github.com/tonylizj/FlowerID-App" target="_blank" className="mr-2">
+                    <Button variant="primary" href="https://github.com/danielsqli/FlowerID-App" target="_blank" className="mr-2">
                         Github
                     </Button>
                     <Button variant="primary" href="https://play.google.com/store/apps/details?id=com.flowerid" target="_blank">

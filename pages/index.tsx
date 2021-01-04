@@ -1,5 +1,5 @@
-import Navigation from './Navigation'
-import Projects from './Projects'
+import Navigation from '../components/Navigation'
+import Projects from '../components/Projects'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Head from 'next/head'
 
