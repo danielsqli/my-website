@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Link from 'next/link';
+import styles from '../styles/links.module.css';
 
 const Projects = () => {
     return (
@@ -9,11 +10,13 @@ const Projects = () => {
                 <Card.Img variant="top" src="flower.png" />
                 <Card.Body>
                     <Link href="projects/flowerid" passHref>
-                        <Card.Title>FlowerID</Card.Title>
+                        <Card.Title className={styles.about}>
+                            FlowerID
+                        </Card.Title>
                     </Link>
                     <Card.Text>
-                    Mobile app that identifies what species of flower your image is. Currently supports
-                    Daisy, Dandelion, Rose, Tulip, Sunflower
+                        Mobile app that identifies what species of flower your image is. Currently supports
+                        Daisy, Dandelion, Rose, Tulip, Sunflower
                     </Card.Text>
                     <Button variant="primary" href="https://github.com/danielsqli/FlowerID-App" target="_blank" className="mr-2">
                         Github
