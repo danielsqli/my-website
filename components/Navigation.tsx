@@ -2,7 +2,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 const Navigation = () => {
-    return ( 
+    return (
         <Navbar expand="lg" variant="dark">
             <Navbar.Brand href="">Daniel Li</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
