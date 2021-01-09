@@ -1,32 +1,48 @@
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import Link from 'next/link';
-import styles from '../styles/links.module.css';
+import { useState } from 'react';
 
+import ProjectCard from './ProjectCard';
+import ProjectModal from './ProjectModal';
+import { flowerDesc, flowerDetail, reindenterDesc, reindenterDetail } from './ProjectDescriptions';
 const Projects = () => {
+    const [showAlert, setShowAlert] = useState("");
     return (
         <div>
-            <Card style={{ width: '18rem', backgroundColor: "#181a1b" }} >
-                <Card.Img variant="top" src="flower.png" />
-                <Card.Body>
-                    <Link href="projects/flowerid" passHref>
-                        <Card.Title className={styles.about}>
-                            FlowerID
-                        </Card.Title>
-                    </Link>
-                    <Card.Text>
-                        Mobile app that identifies what species of flower your image is. Currently supports
-                        Daisy, Dandelion, Rose, Tulip, Sunflower
-                    </Card.Text>
-                    <Button variant="primary" href="https://github.com/danielsqli/FlowerID-App" target="_blank" className="mr-2">
-                        Github
-                    </Button>
-                    <Button variant="primary" href="https://play.google.com/store/apps/details?id=com.flowerid" target="_blank">
-                        Play Store
-                    </Button>
-                </Card.Body>
-            </Card>
+            <div className="row">
+                <ProjectCard 
+                    title="FlowerID" 
+                    description={flowerDesc} 
+                    linkName={["Github", "Play Store"]} 
+                    links={["https://github.com/danielsqli/FlowerID-App", "https://play.google.com/store/apps/details?id=com.flowerid"]}
+                    image="flower.png"
+                    showString="flower"
+                    showDesc={setShowAlert}
+                />
+                <ProjectCard
+                    title="Re-Indenter"
+                    description={reindenterDesc}
+                    linkName={["Github", "Web App"]}
+                    links={["https://github.com/danielsqli/reindenter", "https://reindenter.vercel.app"]}
+                    image="reindenter.png"
+                    showString="indent"
+                    showDesc={setShowAlert}
+                />
+            </div>
+            <ProjectModal 
+                show={showAlert} 
+                setShow={setShowAlert} 
+                showString="flower"
+                name="FlowerID"
+                description={flowerDetail}
+            />
+            <ProjectModal
+                show={showAlert} 
+                setShow={setShowAlert} 
+                showString="indent"
+                name="Re-Indenter"
+                description={reindenterDetail}
+            />
         </div>
+
     )
 }
 

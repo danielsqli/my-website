@@ -7,3 +7,23 @@
 .about:hover {
     cursor: pointer;
 }
+
+.aboutImg {
+    height: 18rem;
+    object-fit: cover;
+    object-position: left;
+}
+
+.aboutBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutLinks {
+    margin-top: auto;
+}
+
+.aboutModal {
+    color: black;
+    white-space: pre-line;
+}
