@@ -2,9 +2,11 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Link from 'next/link'
 
+import styles from '../styles/home.module.css'
+
 const Navigation = () => {
     return (
-        <Navbar expand="lg" variant="dark" style={{backgroundColor: "#181a1b"}}>
+        <Navbar expand="lg" variant="dark" className={styles.navigation}>
             <Navbar.Brand href="/">Daniel Li</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

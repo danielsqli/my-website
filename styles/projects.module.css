@@ -23,12 +23,28 @@
     margin-top: auto;
 }
 
+.projMain {
+    height:100vh;
+}
+
+.projContent {
+    margin-left: 0;
+    width:100vw;
+    margin-bottom: 0;
+    height: calc(100vh - 3rem);
+}
+
 .aboutMain {
     background-color: #232627;
+    padding-top: 1rem;
+    margin-bottom: 0;
 }
 
 .aboutDetail {
     white-space: pre-line;
+    overflow-y: auto;
     background-color: #384149;
     padding-left: 1.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }

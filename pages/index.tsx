@@ -8,7 +8,7 @@ import styles from '../styles/home.module.css'
 
 export default function Home() {
   return (
-    <div style={{height:"100vh", width:"100vw"}}>
+    <div>
       <Head>
         <title>Daniel Li</title>
       </Head>
