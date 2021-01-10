@@ -1,48 +1,33 @@
-import { useState } from 'react';
-
 import ProjectCard from './ProjectCard';
-import ProjectModal from './ProjectModal';
-import { flowerDesc, flowerDetail, reindenterDesc, reindenterDetail } from './ProjectDescriptions';
-const Projects = () => {
-    const [showAlert, setShowAlert] = useState("");
+
+import { flowerDesc, reindenterDesc } from './ProjectDescriptions';
+
+interface ProjProps {
+    setInd: (ind: number ) => void;
+};
+
+const Projects = (props: ProjProps) => {
     return (
-        <div>
-            <div className="row">
-                <ProjectCard 
-                    title="FlowerID" 
-                    description={flowerDesc} 
-                    linkName={["Github", "Play Store"]} 
-                    links={["https://github.com/danielsqli/FlowerID-App", "https://play.google.com/store/apps/details?id=com.flowerid"]}
-                    image="flower.png"
-                    showString="flower"
-                    showDesc={setShowAlert}
-                />
-                <ProjectCard
-                    title="Re-Indenter"
-                    description={reindenterDesc}
-                    linkName={["Github", "Web App"]}
-                    links={["https://github.com/danielsqli/reindenter", "https://reindenter.vercel.app"]}
-                    image="reindenter.png"
-                    showString="indent"
-                    showDesc={setShowAlert}
-                />
-            </div>
-            <ProjectModal 
-                show={showAlert} 
-                setShow={setShowAlert} 
-                showString="flower"
-                name="FlowerID"
-                description={flowerDetail}
+        <div className="d-flex flex-row">
+            <ProjectCard 
+                id={1}
+                setProjInd={props.setInd}
+                title="FlowerID" 
+                description={flowerDesc} 
+                linkName={["Github", "Play Store"]} 
+                links={["https://github.com/danielsqli/FlowerID-App", "https://play.google.com/store/apps/details?id=com.flowerid"]}
+                image="flower.png"
             />
-            <ProjectModal
-                show={showAlert} 
-                setShow={setShowAlert} 
-                showString="indent"
-                name="Re-Indenter"
-                description={reindenterDetail}
+            <ProjectCard
+                id={2}
+                setProjInd={props.setInd}
+                title="Re-Indenter"
+                description={reindenterDesc}
+                linkName={["Github", "Web App"]}
+                links={["https://github.com/danielsqli/reindenter", "https://reindenter.vercel.app"]}
+                image="reindenter.png"
             />
         </div>
-
     )
 }
 

@@ -1,15 +1,16 @@
 import Card from 'react-bootstrap/Card'
-import styles from '../styles/links.module.css'
 import Button from 'react-bootstrap/Button'
 
+import styles from '../styles/projects.module.css';
+
 interface ProjProps {
+    id: number;
+    setProjInd: (ind: number) => void;
     title: string;
     description: string;
     linkName: string[];
     links: string[];
     image: string;
-    showString: string;
-    showDesc: (show: string) => void
 }
 
 const ProjectCard = (props: ProjProps) => {
@@ -17,7 +18,7 @@ const ProjectCard = (props: ProjProps) => {
         <Card style={{ width: '18rem', backgroundColor: "#181a1b", marginRight: "1rem" }} >
             <Card.Img variant="top" src={props.image} className={styles.aboutImg}/>
             <Card.Body className={styles.aboutBody}>
-                <Card.Title className={styles.about} onClick={() => props.showDesc(props.showString)}>
+                <Card.Title className={styles.about} onClick={() => props.setProjInd(props.id)}>
                    {props.title}
                 </Card.Title>
                 <Card.Text>

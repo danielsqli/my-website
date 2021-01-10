@@ -1,13 +1,17 @@
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import Link from 'next/link'
 
 const Navigation = () => {
     return (
-        <Navbar expand="lg" variant="dark">
+        <Navbar expand="lg" variant="dark" style={{backgroundColor: "#181a1b"}}>
             <Navbar.Brand href="/">Daniel Li</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
+                    <Link href="/projects" passHref>
+                        <Nav.Link>Projects</Nav.Link>
+                    </Link>
                     <Nav.Link href="https://github.com/danielsqli" target="_blank">Github</Nav.Link>
                     <Nav.Link href="https://www.linkedin.com/in/daniel-li-8ba675161" target="_blank">Linkedin</Nav.Link>
                     <Nav.Link href="/Resume.pdf" target="_blank">Resume</Nav.Link>
