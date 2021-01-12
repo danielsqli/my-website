@@ -15,7 +15,7 @@ export default function Home() {
       <Navigation />
       <Jumbotron className={styles.mainInfo}>
         <div className="d-flex flex-row align-items-center">
-          <Image src="/memeedit.png" width={300} height={300} className="col-4"/>
+          <Image src="/face.png" width={300} height={300} className="col-4"/>
           <div className="col-8 ml-3">
             <h1>Hello</h1>
             <p>
